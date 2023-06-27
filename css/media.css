@@ -1,0 +1,39 @@
+
+
+@media (max-width:990px) {
+    /* nav bar stylings */
+    .nav-bar{
+        display: none;
+    }
+    .second-nav{
+        display: inline;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 3%;
+        font-size: 20px;
+        background-color: black;
+        color: white;
+    }
+
+    .main{
+        width: 100%;
+        left: 0;
+    }
+
+    .header-content{
+        font-size: 24px;
+        padding: 2%;
+    }
+}
+
+@media (max-width:425px){
+    .card-content {
+        width: 80%;
+        height: 80%;
+        /* border: 1px solid rgb(11, 12, 11); */
+        font-size: 14px;
+        padding: 0% 1% ;
+    }
+    
+}

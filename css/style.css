@@ -1,0 +1,236 @@
+/* css reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* there is some properties behaviors which is we don't want*/
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* There properties which we will use frequently like flex for the we are going to make on class .flex */
+.flex {
+    display: flex;
+}
+
+/* body styling */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 250vh;
+    width: 100vw;
+}
+
+
+/* second-navigation bar */
+.second-nav {
+    display: none;
+}
+
+/* navigation bar styling */
+
+.nav-bar {
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    left: 20%;
+
+    /* flex */
+    flex-direction: column;
+    row-gap: 10%;
+}
+
+.logo {
+    padding: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.logo h3 {
+    line-height: 2rem;
+    letter-spacing: 1%;
+    font-weight: 70;
+}
+
+/* nav links */
+
+.nav-links {
+    flex-direction: column;
+}
+
+.nav-links li {
+    width: 90%;
+    padding: 4%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hv-gray:hover {
+    background-color: #ccc;
+}
+
+.navFoot {
+    flex-direction: column;
+    width: 90%;
+}
+
+.navFoot a {
+    padding: 2%;
+}
+
+/* section main */
+
+.main {
+    position: relative;
+    left: 35%;
+
+    width: 50%;
+
+    padding: 1%;
+    font-weight: 70;
+    line-height: 1.5;
+
+    height: 100%;
+
+}
+
+.header-content {
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.arrivalsContent {
+    position: absolute;
+    width: 50%;
+    top: 6%;
+    color: white;
+    padding: 2%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.arrivalsContent button {
+    border: none;
+}
+
+.shopNow-btn {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.shopNow-btn:hover {
+    background-color: gray;
+    color: #000;
+}
+
+.first-subSection img {
+    width: 100%;
+    height: auto;
+}
+
+.items {
+    color: rgb(83, 83, 83);
+    padding: 8px;
+}
+
+.second-subSection {
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card-content {
+    width: 25%;
+    height: 50%;
+    font-size: 14px;
+    padding: 0% 1% ;
+}
+
+.card-content img {
+    height: 75%;
+    width: 100%;
+}
+
+.third-subSection{
+    height: 35%;
+    /* border: 2px solid #ccc; */
+}
+
+.box1{
+
+    font-family: 'Montserrat', sans-serif;
+    height: 35%;
+    border: 1px solid #ccc;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    row-gap: 2%;
+    padding: 2%;
+}
+
+.box1 input[type="email"]{
+    padding: 8px;
+    outline: none;
+}
+.box1 button{
+    width: fit-content;
+    padding: 4px 8px;
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.box2{
+    height: 65%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    background-color: #ccc;
+}
+.box2-box{
+    font-size: 14px;
+    flex-direction: column;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2-box a{
+    text-decoration: underline;
+}
+
+.box2-box input{
+    outline: none;
+}
+
+footer{
+    background-color: #000;
+    padding: 2%;
+    color: white;
+    text-align: center;
+}
+
+footer span{
+    text-decoration: underline;
+}
